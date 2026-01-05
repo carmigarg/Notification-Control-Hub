@@ -9,6 +9,10 @@ Alcuni componenti hanno anche un rischio di rompersi di nuovo subito dopo la rip
 
 Con il progredire delle missioni, il gioco diventa più difficile e richiede maggiore strategia per completare tutti gli obiettivi senza esaurire le risorse.
 
+Presentazione 
+https://prezi.com/view/VIin285XGytEQhcYb3ES/?referral_token=QrZ24alnB3FN
+
+
 🚀 Come avviare
 
 Assicurarsi di avere Python 3.x installato.
@@ -31,3 +35,4 @@ Rischio di ricaduta: alcuni componenti possono rompersi subito dopo la riparazio
 👥 Componenti del gruppo
 
 Carmine Gargiulo -Iliya  Filipenko - Sergio  Zozulya - Christian Tortorizio
+
