@@ -1,0 +1,47 @@
+{
+    "missione_corrente": 1,
+    "punteggio": 0,
+    "risorse": 50,
+    "componenti": [
+        {
+            "nome": "Motore principale",
+            "tempo_limite": 15,
+            "priorita": 5,
+            "costo": 10,
+            "riparato": false,
+            "rischio_ricaduta": 0.1
+        },
+        {
+            "nome": "Generatore elettrico",
+            "tempo_limite": 10,
+            "priorita": 3,
+            "costo": 8,
+            "riparato": false,
+            "rischio_ricaduta": 0.1
+        },
+        {
+            "nome": "Sistema radar",
+            "tempo_limite": 12,
+            "priorita": 4,
+            "costo": 9,
+            "riparato": false,
+            "rischio_ricaduta": 0.05
+        },
+        {
+            "nome": "Armeria",
+            "tempo_limite": 8,
+            "priorita": 2,
+            "costo": 5,
+            "riparato": false,
+            "rischio_ricaduta": 0.05
+        },
+        {
+            "nome": "Sistema comunicazioni",
+            "tempo_limite": 10,
+            "priorita": 3,
+            "costo": 7,
+            "riparato": false,
+            "rischio_ricaduta": 0.1
+        }
+    ]
+}
