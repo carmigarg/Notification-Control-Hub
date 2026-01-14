@@ -1,47 +1,20 @@
+
 {
-    "missione_corrente": 1,
-    "punteggio": 0,
-    "risorse": 50,
-    "componenti": [
-        {
-            "nome": "Motore principale",
-            "tempo_limite": 15,
-            "priorita": 5,
-            "costo": 10,
-            "riparato": false,
-            "rischio_ricaduta": 0.1
-        },
-        {
-            "nome": "Generatore elettrico",
-            "tempo_limite": 10,
-            "priorita": 3,
-            "costo": 8,
-            "riparato": false,
-            "rischio_ricaduta": 0.1
-        },
-        {
-            "nome": "Sistema radar",
-            "tempo_limite": 12,
-            "priorita": 4,
-            "costo": 9,
-            "riparato": false,
-            "rischio_ricaduta": 0.05
-        },
-        {
-            "nome": "Armeria",
-            "tempo_limite": 8,
-            "priorita": 2,
-            "costo": 5,
-            "riparato": false,
-            "rischio_ricaduta": 0.05
-        },
-        {
-            "nome": "Sistema comunicazioni",
-            "tempo_limite": 10,
-            "priorita": 3,
-            "costo": 7,
-            "riparato": false,
-            "rischio_ricaduta": 0.1
-        }
-    ]
+  "componenti": [
+    {"id": 1, "nome": "Motore", "icona": "🚀", "priorita": 1, "costo": 10, "rischio_ricaduta": 0.2, "tempo_limite": 20, "tempo_restante": 20, "riparato": false},
+    {"id": 2, "nome": "Scudi", "icona": "🛡", "priorita": 1, "costo": 8, "rischio_ricaduta": 0.15, "tempo_limite": 25, "tempo_restante": 25, "riparato": false},
+    {"id": 3, "nome": "Cabina", "icona": "🛰", "priorita": 1, "costo": 12, "rischio_ricaduta": 0.1, "tempo_limite": 30, "tempo_restante": 30, "riparato": false},
+    {"id": 4, "nome": "Radar", "icona": "📡", "priorita": 1, "costo": 7, "rischio_ricaduta": 0.25, "tempo_limite": 18, "tempo_restante": 18, "riparato": false},
+    {"id": 5, "nome": "Serbatoio", "icona": "⛽", "priorita": 2, "costo": 9, "rischio_ricaduta": 0.18, "tempo_limite": 22, "tempo_restante": 22, "riparato": false},
+    {"id": 6, "nome": "Computer di bordo", "icona": "💻", "priorita": 2, "costo": 15, "rischio_ricaduta": 0.05, "tempo_limite": 35, "tempo_restante": 35, "riparato": false},
+    {"id": 7, "nome": "Tubi idraulici", "icona": "🔧", "priorita": 2, "costo": 6, "rischio_ricaduta": 0.2, "tempo_limite": 28, "tempo_restante": 28, "riparato": false},
+    {"id": 8, "nome": "Pannelli solari", "icona": "☀️", "priorita": 3, "costo": 5, "rischio_ricaduta": 0.1, "tempo_limite": 15, "tempo_restante": 15, "riparato": false},
+    {"id": 9, "nome": "Armi", "icona": "🔫", "priorita": 1, "costo": 12, "rischio_ricaduta": 0.3, "tempo_limite": 20, "tempo_restante": 20, "riparato": false},
+    {"id": 10, "nome": "Sensori", "icona": "📡", "priorita": 2, "costo": 8, "rischio_ricaduta": 0.12, "tempo_limite": 18, "tempo_restante": 18, "riparato": false},
+    {"id": 11, "nome": "Vetri cabina", "icona": "🪟", "priorita": 3, "costo": 4, "rischio_ricaduta": 0.08, "tempo_limite": 12, "tempo_restante": 12, "riparato": false},
+    {"id": 12, "nome": "Sedili", "icona": "💺", "priorita": 3, "costo": 3, "rischio_ricaduta": 0.05, "tempo_limite": 10, "tempo_restante": 10, "riparato": false},
+    {"id": 13, "nome": "Lampade", "icona": "💡", "priorita": 3, "costo": 2, "rischio_ricaduta": 0.03, "tempo_limite": 8, "tempo_restante": 8, "riparato": false},
+    {"id": 14, "nome": "Pompe", "icona": "🛠", "priorita": 2, "costo": 6, "rischio_ricaduta": 0.15, "tempo_limite": 18, "tempo_restante": 18, "riparato": false},
+    {"id": 15, "nome": "Unità di raffreddamento", "icona": "❄️", "priorita": 2, "costo": 9, "rischio_ricaduta": 0.1, "tempo_limite": 20, "tempo_restante": 20, "riparato": false}
+  ]
 }
